@@ -1,0 +1,16 @@
+@mixin btn-style {
+    height: 40px;
+    width: auto;
+    padding: 0 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: #fff;
+    color: $main-color;
+    box-shadow: 0 0 15px 5px lightgrey;
+    display: block;
+    margin: 0 auto;
+    &:hover {
+        transition: 0.3s all;
+        box-shadow: 0 0 15px 5px lightgreen;
+    }
+}
